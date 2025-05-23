@@ -17,5 +17,11 @@
         "path": "./themes/DreamySky-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salazarweb/dreamysky"
+  },
+  "publisher": "SalazarWeb",
+  "license": "MIT"
 }

@@ -43,8 +43,8 @@ Puedes personalizar aspectos del tema editando la configuración de tu `settings
 
 Si encuentras algún problema o tienes sugerencias para mejorar este tema, por favor:
 
-1. Visita el [repositorio de GitHub](https://github.com/tu-usuario/dreamy-sky-theme)
-2. Abre un [issue](https://github.com/tu-usuario/dreamy-sky-theme/issues) con los detalles
+1. Visita el [repositorio de GitHub](https://github.com/salazarweb/dreamysky)
+2. Abre un [issue](https://github.com/salazarweb/dreamysky/issues) con los detalles
 
 Las contribuciones son bienvenidas a través de pull requests.
 
