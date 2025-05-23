@@ -4,7 +4,7 @@
   "description": "Un tema oscuro para VS Code que evoca la serenidad de un cielo nocturno con tonalidades azules profundas y acentos brillantes. Dreamy Sky ofrece alto contraste y una paleta armoniosa que resalta la sintaxis del código, reduciendo la fatiga visual durante largas sesiones de programación. Ideal para desarrolladores que buscan un ambiente sereno pero vibrante.",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Themes"
