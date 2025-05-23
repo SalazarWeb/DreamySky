@@ -1,0 +1,115 @@
+{
+    "name": "Dreamy Sky",
+    "type": "dark",
+    "colors": {
+      // Fondos y elementos esenciales del editor - Enfatizando azul
+      "editor.background": "#1e2433", // Más azulado oscuro
+      "editor.foreground": "#abb2bf",
+      "editor.lineHighlightBackground": "#2c3547", // Más azulado
+      "editor.selectionBackground": "#3e4a61", // Más azulado
+      "editor.wordHighlightBackground": "#3e4a6166",
+      "editorCursor.foreground": "#6cb8ff", // Azul cielo más vibrante
+      "editorIndentGuide.background1": "#364059", // Más azulado
+      
+      // Panel de búsqueda dentro del editor con mayor contraste
+      "editor.findMatchBackground": "#4267a2", // Azul más intenso
+      "editor.findMatchHighlightBackground": "#3a538580", // Azul más intenso con transparencia
+      
+      // Barras con tono azul
+      "activityBar.background": "#1a2030", // Más azulado
+      "sideBar.background": "#1a2030", // Más azulado
+      "statusBar.background": "#12192a", // Más azulado
+      "titleBar.activeBackground": "#12192a" // Más azulado
+    },
+    "tokenColors": [
+      // GRUPO 1: COLOR PRINCIPAL - AZUL CIELO (keywords, funciones, clases)
+      {
+        "scope": ["keyword", "storage.type", "storage.modifier"],
+        "settings": { "foreground": "#6cb8ff", "fontStyle": "bold" } // Azul más vibrante
+      },
+      {
+        "scope": ["entity.name.function", "support.function"],
+        "settings": { "foreground": "#56c7df" } // Cyan más brillante
+      },
+      {
+        "scope": ["entity.name.type", "support.class", "storage.type.interface.typescript", "storage.type.type.typescript"],
+        "settings": { "foreground": "#77a6ff", "fontStyle": "bold" } // Azul distintivo
+      },
+      
+      // GRUPO 2: COLOR SECUNDARIO - GRIS PLATEADO (variables, propiedades)
+      {
+        "scope": ["variable", "variable.other.property", "variable.other.object.property"],
+        "settings": { "foreground": "#d7dce2" }  // Gris más claro para mayor contraste
+      },
+      {
+        "scope": ["variable.parameter"],
+        "settings": { "foreground": "#ffffff", "fontStyle": "italic" }  // Plateado brillante para parámetros
+      },
+      {
+        "scope": ["keyword.operator"],
+        "settings": { "foreground": "#e06c75" }  // Rojo coral para operadores, como en One Dark Pro
+      },
+      {
+        "scope": ["constant.numeric", "constant.language"],
+        "settings": { "foreground": "#d19a66" }  // Naranja para constantes/números, como en One Dark Pro
+      },
+      
+      // GRUPO 3: COLOR ACENTO 1 - MENTA SUAVE (strings, valores)
+      {
+        "scope": ["string", "punctuation.definition.string"],
+        "settings": { "foreground": "#98c379" }  // Verde más vivo para strings, como en One Dark Pro
+      },
+      {
+        "scope": ["support.constant.property-value.css", "support.constant.property-value.scss"],
+        "settings": { "foreground": "#98c379" }  // Verde más vivo
+      },
+      
+      // GRUPO 4: COLOR ACENTO 2 - LAVANDA (HTML/JSX tags)
+      {
+        "scope": ["entity.name.tag", "punctuation.definition.tag"],
+        "settings": { "foreground": "#c678dd" }  // Púrpura más vibrante, como en One Dark Pro
+      },
+      {
+        "scope": ["entity.other.attribute-name.class.css", "entity.other.attribute-name.id.css"],
+        "settings": { "foreground": "#6cb8ff" }  // Azul cielo para clases CSS
+      },
+      
+      // COLOR DE ACENTO 3 - ÁMBAR (propiedades CSS, atributos)
+      {
+        "scope": ["entity.other.attribute-name"],
+        "settings": { "foreground": "#d19a66", "fontStyle": "italic" }  // Naranja más intenso en cursiva
+      },
+      {
+        "scope": ["support.type.property-name.css", "support.type.property-name.scss", "support.type.property-name.less"],
+        "settings": { "foreground": "#d19a66" }  // Naranja más intenso
+      },
+      {
+        "scope": ["punctuation.section.embedded.begin.jsx", "punctuation.section.embedded.end.jsx"],
+        "settings": { "foreground": "#d19a66" }  // Naranja más intenso
+      },
+      
+      // COLOR NEUTRO - AZUL GRISÁCEO (comentarios)
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": { "foreground": "#5c6370", "fontStyle": "italic" }  // Gris más oscuro para comentarios
+      },
+      
+      // OTROS ELEMENTOS
+      {
+        "scope": ["invalid", "invalid.illegal"],
+        "settings": { "foreground": "#e06c75", "fontStyle": "underline" }  // Rojo más vibrante
+      },
+      {
+        "scope": ["meta.import", "keyword.control.import", "keyword.control.export"],
+        "settings": { "foreground": "#c678dd" }  // Púrpura para imports/exports como One Dark Pro
+      },
+      {
+        "scope": ["support.type.property-name"],
+        "settings": { "foreground": "#abb2bf" }  // Color base para propiedades
+      },
+      {
+        "scope": ["keyword.other.unit"],
+        "settings": { "foreground": "#d19a66" }  // Naranja para unidades
+      }
+    ]
+}
